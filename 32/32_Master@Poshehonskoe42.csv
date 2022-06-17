@@ -1,0 +1,91 @@
+32_ADC1@ADC,KONTAR (Ethernet),XRAM_FLOT,32#0001
+32_ADC2@ADC,KONTAR (Ethernet),XRAM_FLOT,32#0005
+32_ADC3@ADC,KONTAR (Ethernet),XRAM_FLOT,32#0009
+32_ADC4@ADC,KONTAR (Ethernet),XRAM_FLOT,32#000D
+32_ADC5@ADC,KONTAR (Ethernet),XRAM_FLOT,32#0011
+32_ADC6@ADC,KONTAR (Ethernet),XRAM_FLOT,32#0015
+32_ADC7@ADC,KONTAR (Ethernet),XRAM_FLOT,32#0019
+32_ADC8@ADC,KONTAR (Ethernet),XRAM_FLOT,32#001D
+32_Температура процессора @ADC,KONTAR (Ethernet),XRAM_FLOT,32#0025
+32_Авар F8@Аварии_МС12,KONTAR (Ethernet),XRAM_BOOL,32#0D3A
+32_Ав_Н_подп_1@Аварии_МС12,KONTAR (Ethernet),XRAM_BOOL,32#0C69
+32_Ав_Н_подп_2@Аварии_МС12,KONTAR (Ethernet),XRAM_BOOL,32#0C6A
+32_Авария _SF6@Аварии_МС12,KONTAR (Ethernet),XRAM_BOOL,32#0D36
+32_Авария _SF7@Аварии_МС12,KONTAR (Ethernet),XRAM_BOOL,32#0D37
+32_Общ_авар@Аварии_МС12,KONTAR (Ethernet),XRAM_BOOL,32#0C6B
+32_Кнопка ГК открыть@Управление_ГК,KONTAR (Ethernet),XRAM_BOOL,32#0C75
+32_ГК открыт@Управление_ГК,KONTAR (Ethernet),XRAM_BOOL,32#0C2C
+32_Бия_С@Управление_ГК,KONTAR (Ethernet),XRAM_BOOL,32#0C2D
+32_Загагзовано_СО@Управление_ГК,KONTAR (Ethernet),XRAM_BOOL,32#0C6F
+32_Загазовано_СН4@Управление_ГК,KONTAR (Ethernet),XRAM_BOOL,32#0C70
+32_Кнопка_ГК_закрыть@Управление_ГК,KONTAR (Ethernet),XRAM_BOOL,32#0C6D
+32_Ав_СО_СН4_Пожар@Управление_ГК,KONTAR (Ethernet),XRAM_BOOL,32#0C2D
+32_Пожар@Управление_ГК,KONTAR (Ethernet),XRAM_BOOL,32#0C6E
+32_Электричества_нет@Управление_ГК,KONTAR (Ethernet),XRAM_BOOL,32#01AB
+32_p_после_подпитки@Упр_подпитка,KONTAR (Ethernet),XRAM_FLOT,32#0C41
+32_зад_Р_подп@Упр_подпитка,KONTAR (Ethernet),XRAM_FLOT,32#016F
+32_p_исходной_воды@Упр_подпитка,KONTAR (Ethernet),XRAM_FLOT,32#0C45
+32_задержка_вкл_подпитки@Упр_подпитка,KONTAR (Ethernet),XRAM_FLOT,32#0173
+32_задан_исх_вода_мин@Упр_подпитка,KONTAR (Ethernet),XRAM_FLOT,32#0177
+32_Запуск_подпитки_по_Р@Упр_подпитка,KONTAR (Ethernet),XRAM_BOOL,32#0C32
+32_Н1_подпитки_вкл@Упр_подпитка,KONTAR (Ethernet),XRAM_BOOL,32#0C33
+32_Н2_подпитки_вкл@Упр_подпитка,KONTAR (Ethernet),XRAM_BOOL,32#0C34
+32_Кнопка_подпитка_вкл@Упр_подпитка,KONTAR (Ethernet),XRAM_BOOL,32#0162
+32_подпитка_включена@Упр_подпитка,KONTAR (Ethernet),XRAM_BOOL,32#0C35
+32_Кнопка_подпитка_выкл@Упр_подпитка,KONTAR (Ethernet),XRAM_BOOL,32#0163
+32_Кнопка_авар_подп_сброс@Упр_подпитка,KONTAR (Ethernet),XRAM_BOOL,32#0164
+32_T_тепловентилятора@Упр_тепловент,KONTAR (Ethernet),XRAM_FLOT,32#0167
+32_Т_контур_тепловентилятор@Упр_тепловент,KONTAR (Ethernet),XRAM_FLOT,32#0C39
+32_Вкл_тепловентилятора@Упр_тепловент,KONTAR (Ethernet),XRAM_BOOL,32#0160
+32_Контур тепл. вент вкл.@Упр_тепловент,KONTAR (Ethernet),XRAM_BOOL,32#0C2E
+32_Выкл_тепловентилятора@Упр_тепловент,KONTAR (Ethernet),XRAM_BOOL,32#0161
+32_Н_подпитки@Упр_тепловент,KONTAR (Ethernet),XRAM_BOOL,32#0C2F
+32_Н_контура@Упр_тепловент,KONTAR (Ethernet),XRAM_BOOL,32#0C30
+32_Вентилятор@Упр_тепловент,KONTAR (Ethernet),XRAM_BOOL,32#0C31
+32_Задание_t_помещения@Упр_тепловент,KONTAR (Ethernet),XRAM_FLOT,32#016B
+32_Т_помещения@Упр_тепловент,KONTAR (Ethernet),XRAM_FLOT,32#0C3D
+32_Парам: Смена насосов@Упр_сетевые_Н,KONTAR (Ethernet),XRAM_FLOT,32#017B
+32_Насос 1 раб@Упр_сетевые_Н,KONTAR (Ethernet),XRAM_BOOL,32#0C36
+32_Насос 2 раб@Упр_сетевые_Н,KONTAR (Ethernet),XRAM_BOOL,32#0C37
+32_Парам: мин SH@Упр_сетевые_Н,KONTAR (Ethernet),XRAM_FLOT,32#017F
+32_Парам: норм SH@Упр_сетевые_Н,KONTAR (Ethernet),XRAM_FLOT,32#0183
+32_Н1_Рассогласование@Упр_сетевые_Н,KONTAR (Ethernet),XRAM_FLOT,32#0C49
+32_Н1_Выход@Упр_сетевые_Н,KONTAR (Ethernet),XRAM_FLOT,32#0C4D
+32_Н1_Нечувствительность@Упр_сетевые_Н,KONTAR (Ethernet),XRAM_FLOT,32#0187
+32_Н1_K_пропорц@Упр_сетевые_Н,KONTAR (Ethernet),XRAM_FLOT,32#018B
+32_Н1_TI@Упр_сетевые_Н,KONTAR (Ethernet),XRAM_FLOT,32#018F
+32_Н1_По-умолчанию@Упр_сетевые_Н,KONTAR (Ethernet),XRAM_FLOT,32#0193
+32_задание_Н1@Упр_сетевые_Н,KONTAR (Ethernet),XRAM_FLOT,32#0C51
+32_Н2_Рассогласование@Упр_сетевые_Н,KONTAR (Ethernet),XRAM_FLOT,32#0C55
+32_Н2_Выход@Упр_сетевые_Н,KONTAR (Ethernet),XRAM_FLOT,32#0C59
+32_Н2_Нечувствительность@Упр_сетевые_Н,KONTAR (Ethernet),XRAM_FLOT,32#0197
+32_Н2_K_пропорц@Упр_сетевые_Н,KONTAR (Ethernet),XRAM_FLOT,32#019B
+32_Н2_TI@Упр_сетевые_Н,KONTAR (Ethernet),XRAM_FLOT,32#019F
+32_Н2_По-умолчанию@Упр_сетевые_Н,KONTAR (Ethernet),XRAM_FLOT,32#01A3
+32_Задание_Н2@Упр_сетевые_Н,KONTAR (Ethernet),XRAM_FLOT,32#0C5D
+32_Задание_давления@Упр_сетевые_Н,KONTAR (Ethernet),XRAM_FLOT,32#01A7
+32_P_ДО_Н@Упр_сетевые_Н,KONTAR (Ethernet),XRAM_FLOT,32#0C61
+32_P_ПО_Н@Упр_сетевые_Н,KONTAR (Ethernet),XRAM_FLOT,32#0C65
+32_Кнопка_сет_Н_вкл@Упр_сетевые_Н,KONTAR (Ethernet),XRAM_BOOL,32#0165
+32_подпитка_включена@Упр_сетевые_Н,KONTAR (Ethernet),XRAM_BOOL,32#0C38
+32_Кнопка_сет_Н_выкл@Упр_сетевые_Н,KONTAR (Ethernet),XRAM_BOOL,32#0166
+32_Загагзовано_СО@Alarms,KONTAR (Ethernet),XRAM_BOOL,32#0C6F
+32_Загазовано_СН4@Alarms,KONTAR (Ethernet),XRAM_BOOL,32#0C70
+32_Ав_СО_СН4_Пожар@Alarms,KONTAR (Ethernet),XRAM_BOOL,32#0C2D
+32_Пожар@Alarms,KONTAR (Ethernet),XRAM_BOOL,32#0C6E
+32_Электричества_нет@Alarms,KONTAR (Ethernet),XRAM_BOOL,32#01AB
+32_Авар_SF8@Alarms,KONTAR (Ethernet),XRAM_BOOL,32#0D3A
+32_Ав_Н_подп_1@Alarms,KONTAR (Ethernet),XRAM_BOOL,32#0C69
+32_Ав_Н_подп_2@Alarms,KONTAR (Ethernet),XRAM_BOOL,32#0C6A
+32_Авария__SF6@Alarms,KONTAR (Ethernet),XRAM_BOOL,32#0D36
+32_Авария__SF7@Alarms,KONTAR (Ethernet),XRAM_BOOL,32#0D37
+32_Общ_авар@Alarms,KONTAR (Ethernet),XRAM_BOOL,32#0C6B
+32_05_Авар_сет_Н1@Alarms,KONTAR (Ethernet),XRAM_BOOL,32#0D40
+32_05_Авар_сет_Н2@Alarms,KONTAR (Ethernet),XRAM_BOOL,32#0D41
+32_05_Ав_Н_кот1@Alarms,KONTAR (Ethernet),XRAM_BOOL,32#0D44
+32_05_Ав_Н_кот2@Alarms,KONTAR (Ethernet),XRAM_BOOL,32#0D45
+32_05_Ав_Н_кот3@Alarms,KONTAR (Ethernet),XRAM_BOOL,32#0D46
+32_05_Ав_V300@Alarms,KONTAR (Ethernet),XRAM_BOOL,32#0D47
+32_05_Ав_V1001@Alarms,KONTAR (Ethernet),XRAM_BOOL,32#0D48
+32_05_Ав_V1002@Alarms,KONTAR (Ethernet),XRAM_BOOL,32#0D49
+32_05_Ав_V1003@Alarms,KONTAR (Ethernet),XRAM_BOOL,32#0D4A

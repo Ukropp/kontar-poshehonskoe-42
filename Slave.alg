@@ -1,0 +1,179 @@
+FILE = "Slave\\Slave.ab";
+CAPTION = "ME16";
+COMMENT = "Slave";
+FUNCTION = "ME16";
+LEVEL = DEVICE;
+UNDERLEVEL = PROJECT;
+CONTAINER = TRUE;
+MODEL = FALSE;
+LIST = TRUE;
+ARRAY = AI{
+IO = INPUT;
+VISIBLE = TRUE;
+COMMENT = "Аналоговый вход";
+DIM = 0;
+DIMMIN = 0;
+DIMMAX = 0;
+TYPE = FLOAT;
+}
+ARRAY = AO{
+IO = OUTPUT;
+VISIBLE = TRUE;
+COMMENT = "Аналоговый выход";
+DIM = 0;
+DIMMIN = 0;
+DIMMAX = 0;
+TYPE = FLOAT;
+}
+ARRAY = DI{
+IO = INPUT;
+VISIBLE = TRUE;
+COMMENT = "Цифровой вход";
+DIM = 19;
+DIMMIN = 0;
+DIMMAX = 0;
+TYPE = BOOL;
+}
+ARRAY = DO{
+IO = OUTPUT;
+VISIBLE = TRUE;
+COMMENT = "Цифровой выход";
+DIM = 13;
+DIMMIN = 0;
+DIMMAX = 0;
+TYPE = BOOL;
+}
+ARRAY = II{
+IO = INPUT;
+VISIBLE = TRUE;
+COMMENT = "Целый вход";
+DIM = 0;
+DIMMIN = 0;
+DIMMAX = 0;
+TYPE = INT;
+}
+ARRAY = IO{
+IO = OUTPUT;
+VISIBLE = TRUE;
+COMMENT = "Целый выход";
+DIM = 0;
+DIMMIN = 0;
+DIMMAX = 0;
+TYPE = INT;
+}
+ARRAY = TI{
+IO = INPUT;
+VISIBLE = TRUE;
+COMMENT = "Вход время";
+DIM = 0;
+DIMMIN = 0;
+DIMMAX = 0;
+TYPE = TIME;
+}
+ARRAY = TO{
+IO = OUTPUT;
+VISIBLE = TRUE;
+COMMENT = "Выход время";
+DIM = 0;
+DIMMIN = 0;
+DIMMAX = 0;
+TYPE = TIME;
+}
+ARRAY = DATI{
+IO = INPUT;
+VISIBLE = TRUE;
+COMMENT = "Вход дата";
+DIM = 0;
+DIMMIN = 0;
+DIMMAX = 0;
+TYPE = DATE;
+}
+ARRAY = DATO{
+IO = OUTPUT;
+VISIBLE = TRUE;
+COMMENT = "Выход дата";
+DIM = 0;
+DIMMIN = 0;
+DIMMAX = 0;
+TYPE = DATE;
+}
+TERMINAL = 0{
+NAME = "DI.1";
+ARRAY = "DI";
+}
+TERMINAL = 1{
+NAME = "DI.2";
+ARRAY = "DI";
+}
+TERMINAL = 2{
+NAME = "DI.3";
+ARRAY = "DI";
+}
+TERMINAL = 3{
+NAME = "DI.4";
+ARRAY = "DI";
+}
+TERMINAL = 4{
+NAME = "DI.5";
+ARRAY = "DI";
+}
+TERMINAL = 5{
+NAME = "DI.6";
+ARRAY = "DI";
+}
+TERMINAL = 6{
+NAME = "DI.7";
+ARRAY = "DI";
+}
+TERMINAL = 7{
+NAME = "DI.8";
+ARRAY = "DI";
+}
+TERMINAL = 8{
+NAME = "DI.9";
+ARRAY = "DI";
+}
+TERMINAL = 9{
+NAME = "DI.10";
+ARRAY = "DI";
+}
+TERMINAL = 10{
+NAME = "DI.11";
+ARRAY = "DI";
+}
+TERMINAL = 11{
+NAME = "DI.12";
+ARRAY = "DI";
+}
+TERMINAL = 12{
+NAME = "DI.13";
+ARRAY = "DI";
+}
+TERMINAL = 13{
+NAME = "DI.14";
+ARRAY = "DI";
+}
+TERMINAL = 14{
+NAME = "DI.15";
+ARRAY = "DI";
+}
+TERMINAL = 15{
+NAME = "DI.16";
+ARRAY = "DI";
+}
+TERMINAL = 16{
+NAME = "DO.1";
+ARRAY = "DO";
+}
+TERMINAL = 17{
+NAME = "DO.2";
+ARRAY = "DO";
+}
+TERMINAL = 18{
+NAME = "DO.3";
+ARRAY = "DO";
+}
+TERMINAL = 19{
+NAME = "DO.4";
+ARRAY = "DO";
+}
