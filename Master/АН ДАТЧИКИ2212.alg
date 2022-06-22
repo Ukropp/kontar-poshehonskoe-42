@@ -1,5 +1,5 @@
 FILE = "ְֽ ְִׂ׳ָÊָ2212\\ְֽ ְִׂ׳ָÊָ2212.ab";
-CAPTION = "אהנ4 ְּ8.3ּ";
+CAPTION = "אהנ4ְ8ְּ8.3ּ";
 COMMENT = "";
 FUNCTION = "COMPLEX";
 LEVEL = DEVICE;

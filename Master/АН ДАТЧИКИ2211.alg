@@ -1,5 +1,5 @@
 FILE = "ְֽ ְִׂ׳ָÊָ2211\\ְֽ ְִׂ׳ָÊָ2211.ab";
-CAPTION = "אהנ2 ְּ8.3";
+CAPTION = "אהנ2ְ9ְּ8.3";
 COMMENT = "";
 FUNCTION = "COMPLEX";
 LEVEL = DEVICE;
@@ -38,7 +38,7 @@ ARRAY = DOUT{
 IO = OUTPUT;
 VISIBLE = TRUE;
 COMMENT = "ײטפנמגמי גûץמה";
-DIM = 0;
+DIM = 1;
 DIMMIN = 0;
 DIMMAX = 0;
 TYPE = BOOL;
